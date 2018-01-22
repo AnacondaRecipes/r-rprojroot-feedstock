@@ -10,8 +10,8 @@ package:
 source:
   fn: rprojroot_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/rprojroot_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/rprojroot/rprojroot_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/rprojroot_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/rprojroot/rprojroot_{{ version }}.tar.gz
   sha256: 628c2c064b2b288264ecab6e670f9fd1d380b017a546926019fec301a5c82fca
 
 
